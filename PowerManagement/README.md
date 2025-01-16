@@ -41,6 +41,17 @@ Ensure the following kexts are in your `EFI/OC/Kexts` folder and added to `confi
 - **HibernationFixup.kext**: [Download](https://github.com/acidanthera/HibernationFixup/releases/latest)
 - **RTCMemoryFixup.kext** (Optional): [Download](https://github.com/acidanthera/RTCMemoryFixup/releases/latest)
 
+#### Options in my Case Mac Pro7,1
+```bash
+# boot-args
+keepsyms=1 npci=0x2000 watchdog=0 unfairgva=1 swd_panic=1 alcid=1 -alcbeta -amfipassbeta -btlfxbeta -vsmcbeta -lilubetaall -revbeta -ctrsmt e1000=0 itlwm_cc=YOUR_COUNTRY_CODE
+This argument `rtcfx_exclude=80-AB` is not used to boot-args
+
+# config.plist
+HibernateMode to None in Misc -> Boot
+HibernateSkipsPicker to Misc -> Boot -> Enable
+```
+
 ---
 
 <a id="3-quirks"></a>
@@ -202,17 +213,6 @@ sudo pmset -a acwake 1                        # Laptops where you want the syste
 sudo pmset -a lidwake 1                       # for MacBooks and other Apple laptops! This command controls whether your laptop wakes up when you open the lid
 sudo pmset -a lowpowermode 1                  # For Mac laptops, use lowpowermode 1 to save battery or lowpowermode 0 for maximum performance.
 sudo pmset -a highstandbythreshold 50         # Battery threshold for high-power standby.for both MacBooks and desktop Macs.
-```
-
-#### Options in my Case Mac Pro7,1
-```bash
-# boot-args
-keepsyms=1 npci=0x2000 watchdog=0 unfairgva=1 swd_panic=1 alcid=1 -alcbeta -amfipassbeta -btlfxbeta -vsmcbeta -lilubetaall -revbeta -ctrsmt e1000=0 itlwm_cc=YOUR_COUNTRY_CODE
-This argument `rtcfx_exclude=80-AB` is not used to boot-args
-
-# config.plist
-HibernateMode to None in Misc -> Boot
-HibernateSkipsPicker to Misc -> Boot -> Enable
 ```
 
 #### Check Current Power Button Behavior
