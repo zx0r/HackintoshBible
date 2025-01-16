@@ -189,10 +189,11 @@ sudo pmset -a highstandbythreshold 50         # Battery threshold for high-power
 #### Options in my Case Mac Pro7,1
 ```bash
 # boot-args
-keepsyms=1 npci=0x2000 watchdog=0 unfairgva=1 swd_panic=1 alcid=1 -alcbeta -amfipassbeta -btlfxbeta -vsmcbeta -lilubetaall -revbeta -ctrsmt e1000=0 itlwm_cc= COUNTRY_CODE`
+keepsyms=1 npci=0x2000 watchdog=0 unfairgva=1 swd_panic=1 alcid=1 -alcbeta -amfipassbeta -btlfxbeta -vsmcbeta -lilubetaall -revbeta -ctrsmt e1000=0 itlwm_cc=YOUR_COUNTRY_CODE
 
 # config.plist
 HibernateMode to None in Misc -> Boot
+HibernateSkipsPicker to None Misc -> Boot -> Enable
 ```
 <a id="8-quirks"></a>
 ### 8. OpenCore Configuration.Enable Necessary Quirks
