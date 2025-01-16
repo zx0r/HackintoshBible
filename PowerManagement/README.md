@@ -162,7 +162,7 @@ sudo pmset -a displaysleep 10                  # Display sleeps after 10 minutes
 Options 2. Prevent System Sleep While Keeping the Display On
 # sudo pmset -a sleep 0                        # Set the sleep timer to 0.This means the system will never automatically enter sleep mode, regardless of inactivity
 # sudo pmset -a disksleep 0                    # If you want to prevent the disk from sleeping as well, set the disksleep timer to 0:
-# sudo pmset -a displaysleep 0                 # Set the displaysleep timer to the desired time (e.g., 5 minutes)
+# sudo pmset -a displaysleep 5                 # Set the displaysleep timer to the desired time (e.g., 5 minutes)
 
 # Explanation:
 # - `sleep`: Time (in minutes) before the system sleeps.
