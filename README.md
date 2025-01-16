@@ -1,4 +1,5 @@
 <small>
+  
 #### OpenCore Resources
 - **[OpenCore Documentation](https://dortania.github.io)**  
   - Official OpenCore guides, installation instructions, and troubleshooting resources.
