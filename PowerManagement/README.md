@@ -233,35 +233,12 @@ Reboot your system and select "Reset NVRAM" from the OpenCore boot menu.
 - For Hackintoshes, ensure your ACPI/DSDT patches are correct.
   
 ### Check Current Power Button Behavior
-- 1: The power button will put the system to sleep.
-- 0: The power button will have no effect.
-
-> `pmset -g custom`
-```bash
-AC Power:
- Sleep On Power Button 0
- ttyskeepawake        1
- hibernatemode        25
- powernap             1
- gpuswitch            2
- hibernatefile        /var/vm/sleepimage
- displaysleep         5
- womp                 0
- networkoversleep     0
- sleep                1
- tcpkeepalive         1
- disksleep            10
-```
 
 - To open the pane, choose Apple menu > System Settings, then click Lock Screen
-- Uncheck box <Show the Sleep, Restart and Shutdown Buttons> and You have to relogin
+- Uncheck box Show the Sleep, Restart and Shutdown Buttons and You have to relogin
 
 - Before making changes, verify the current behavior of the power button:
 - Press Windows + Alt and Press the power button briefly.
 - Observe whether the system enters sleep mode or displays a shutdown dialog.
 
 </small>
-
-
->>>>>>> d34b819 (Add PowerManagement folder with sleep/wake configuration scripts)
-
