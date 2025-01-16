@@ -48,7 +48,7 @@ Ensure the following kexts are in your `EFI/OC/Kexts` folder and added to `confi
 keepsyms=1 npci=0x2000 watchdog=0 unfairgva=1 swd_panic=1 alcid=1 -alcbeta -amfipassbeta -btlfxbeta -vsmcbeta -lilubetaall -revbeta -ctrsmt e1000=0 itlwm_cc=YOUR_COUNTRY_CODE
 This argument `rtcfx_exclude=80-AB` is not used to boot-args
 
-# config.plist
+# HibernateMode
 HibernateMode to None in Misc -> Boot
 HibernateSkipsPicker to Misc -> Boot -> Enable
 ```
