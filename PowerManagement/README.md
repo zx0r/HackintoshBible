@@ -171,7 +171,7 @@ sudo pmset -a networkoversleep 0              # Disable network access during sl
 # Set the auto power-off delay to save energy.
 sudo pmset -a standby 1                       # Enable standby mode for all power sources
 sudo pmset -a standbydelaylow 1               # Maximizes power savings immediately.Enters standby mode immediately (1 second)
-sudo pmset -a standbydelayhigh 1                   # Maximizes power savings right away.Enters standby mode immediately (1 second)
+sudo pmset -a standbydelayhigh 1              # Maximizes power savings right away.Enters standby mode immediately (1 second)
 sudo pmset -a autopoweroff 0                  # Disable automatic power-off (Option 1 turns off the PC after going into sleep mode)
 sudo pmset -a autopoweroffdelay 7200          # Set auto power-off delay to 2 hours (7200 seconds)
 sudo pmset -a halfdim 1                       # Enable diplay dim before sleep.is a great power-saving feature that enables display dimming before your Mac goes to sleep
