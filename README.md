@@ -24,7 +24,7 @@
   - Community-driven Hackintosh forum.
 - **[Hackintosh-Forum.de](https://www.hackintosh-forum.de/forum/board/279-anleitungen-und-builds/)**  
   - German Hackintosh community with guides and builds.
-- **[MacOS86.it](https://macos86.it/)**  
+- **[Macos86.it](https://macos86.it/)**  
   - Italian Hackintosh community and resources.
 
 ---
