@@ -193,7 +193,7 @@ keepsyms=1 npci=0x2000 watchdog=0 unfairgva=1 swd_panic=1 alcid=1 -alcbeta -amfi
 
 # config.plist
 HibernateMode to None in Misc -> Boot
-HibernateSkipsPicker to None Misc -> Boot -> Enable
+HibernateSkipsPicker to Misc -> Boot -> Enable
 ```
 <a id="8-quirks"></a>
 ### 8. OpenCore Configuration.Enable Necessary Quirks
