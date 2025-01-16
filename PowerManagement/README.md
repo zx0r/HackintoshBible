@@ -11,13 +11,13 @@
 #### **Table of Contents**
 1. [BIOS/UEFI Settings](#1-bios)
 2. [OpenCore Configuration](#2-opencore)
-3. [Check current power settings and Assertions](#3-check)
-4. [Set Hibernate Mode](#4-set-hibernate-mode)
-5. [Configure Sleep and Display Sleep](#5-configure-sleep-and-display-sleep)
-6. [Disable Unnecessary Wake Events](#6-disable-unnecessary-wake-events)
-7. [Configure Auto Power-Off](#7-configure-auto-power-off)
-8. [OpenCore Configuration.Enable Necessary Quirks](#8-quirks)
-9. [Debugging Sleep Issues](#8-debugging-sleep-issues)
+3. [OpenCore Configuration.Enable Necessary Quirks](#3-quirks)
+4. [Check current power settings and Assertions](#4-check)
+5. [Set Hibernate Mode](#5-set-hibernate-mode)
+6. [Configure Sleep and Display Sleep](#6-configure-sleep-and-display-sleep)
+7. [Disable Unnecessary Wake Events](#7-disable-unnecessary-wake-events)
+8. [Configure Auto Power-Off](#8-configure-auto-power-off)
+9. [Debugging Sleep Issues](#9-debugging-sleep-issues)
 
 
 ---
@@ -43,8 +43,26 @@ Ensure the following kexts are in your `EFI/OC/Kexts` folder and added to `confi
 
 ---
 
-<a id="3-check"></a>
-### 3. Check current power settings and Assertions
+<a id="3-quirks"></a>
+### 3. OpenCore Configuration.Enable Necessary Quirks
+```bash
+(Optional) 
+
+# Use only if sleep or hibernation isn't working properly
+# In most cases it works without these parameters
+
+# `DiscardHibernateMap`: Discards the hibernate memory map.
+ Enable the DiscardHibernateMap (Optional): Booter -> Quirks -> true
+
+# `DisableRtcChecksum`: Disables RTC checksum validation.
+ Enable DisableRTCChecksum (Optional): Kernel -> Quirks -> DisableRTCChecksum -> true
+
+# `EnableWriteUnprotector`: Allows writing to protected memory regions.
+ Enable the EnableWriteUnprotector (Optional): Booter -> Quirks -> true
+```
+
+<a id="4-check"></a>
+### 4. Check current power settings and Assertions
 
 Run the following command in the terminal:
 
@@ -110,8 +128,8 @@ Idle sleep preventers: IODisplayWrangler
 
 ---
 
-<a id="4-set-hibernate-mode"></a>
-### 4. Set Hibernate Mode
+<a id="5-set-hibernate-mode"></a>
+### 5. Set Hibernate Mode
 Configure hibernation mode based on your use case:
 
 | Mode | Behavior | Use Case |
@@ -130,8 +148,8 @@ sudo pmset -a hibernatemode 25
 # sudo mkdir /var/vm/sleepimage
 ```
 
-<a id="5-configure-sleep-and-display-sleep"></a>
-### 5. Configure Sleep and Display Sleep timers to optimize power managemen
+<a id="6-configure-sleep-and-display-sleep"></a>
+### 6. Configure Sleep and Display Sleep timers to optimize power managemen
 ```bash
 # Both options work, my choice is `Options 1`
 
@@ -152,8 +170,8 @@ Options 2. Prevent System Sleep While Keeping the Display On
 # - `displaysleep`: Time (in minutes) before the display turns off.
 ```
 
-<a id="6-disable-unnecessary-wake-events"></a>
-### 6. Disable Unnecessary Wake Events
+<a id="7-disable-unnecessary-wake-events"></a>
+### 7. Disable Unnecessary Wake Events
 ```bash
 # Prevent the system from waking unexpectedly
 sudo pmset -a womp 0                          # Disable wake on network access (Wake on LAN)
@@ -165,8 +183,8 @@ sudo pmset -a ttyskeepawake 1                 # Keep system awake if remote sess
 sudo pmset -a networkoversleep 0              # Disable network access during sleep.Maximizes power savings.
 ```
 
-<a id="7-configure-auto-power-off"></a>
-### 7. Configure Auto Power-Off
+<a id="9-configure-auto-power-off"></a>
+### 8. Configure Auto Power-Off
 ```bash
 # Set the auto power-off delay to save energy.
 sudo pmset -a standby 1                       # Enable standby mode for all power sources
@@ -195,23 +213,7 @@ keepsyms=1 npci=0x2000 watchdog=0 unfairgva=1 swd_panic=1 alcid=1 -alcbeta -amfi
 HibernateMode to None in Misc -> Boot
 HibernateSkipsPicker to Misc -> Boot -> Enable
 ```
-<a id="8-quirks"></a>
-### 8. OpenCore Configuration.Enable Necessary Quirks
-```bash
-(Optional) 
 
-# Use only if sleep or hibernation isn't working properly
-# In most cases it works without these parameters
-
-# `DiscardHibernateMap`: Discards the hibernate memory map.
-# Enable the DiscardHibernateMap (Optional): Booter -> Quirks -> true
-
-# `DisableRtcChecksum`: Disables RTC checksum validation.
-# Enable DisableRTCChecksum (Optional): Kernel -> Quirks -> DisableRTCChecksum -> true
-
-# `EnableWriteUnprotector`: Allows writing to protected memory regions.
-# Enable the EnableWriteUnprotector (Optional): Booter -> Quirks -> true
-```
 #### Check Current Power Button Behavior
 
 - To open the pane, choose Apple menu > System Settings, then click Lock Screen
