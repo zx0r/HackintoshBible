@@ -211,6 +211,15 @@ HibernateMode to None in Misc -> Boot
 # `EnableWriteUnprotector`: Allows writing to protected memory regions.
 # Enable the EnableWriteUnprotector (Optional): Booter -> Quirks -> true
 ```
+#### Check Current Power Button Behavior
+
+- To open the pane, choose Apple menu > System Settings, then click Lock Screen
+- Uncheck box Show the Sleep, Restart and Shutdown Buttons and You have to relogin
+
+- Before making changes, verify the current behavior of the power button:
+- Press Windows + Alt and Press the power button briefly.
+- Observe whether the system enters sleep mode or displays a shutdown dialog.
+
 <a id="9-debugging-sleep-issues"></a>
 ### 9. Debugging Sleep Issues
 ```bash
@@ -231,14 +240,4 @@ Reboot your system and select "Reset NVRAM" from the OpenCore boot menu.
 - Test your settings after making changes.
 - Keep your kexts and OpenCore up to date.
 - For Hackintoshes, ensure your ACPI/DSDT patches are correct.
-  
-### Check Current Power Button Behavior
-
-- To open the pane, choose Apple menu > System Settings, then click Lock Screen
-- Uncheck box Show the Sleep, Restart and Shutdown Buttons and You have to relogin
-
-- Before making changes, verify the current behavior of the power button:
-- Press Windows + Alt and Press the power button briefly.
-- Observe whether the system enters sleep mode or displays a shutdown dialog.
-
 </small>
