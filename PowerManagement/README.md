@@ -156,10 +156,6 @@ Configure hibernation mode based on your use case:
 ```bash
 # Deep hibernation (recommended for desktops/servers)
 sudo pmset -a hibernatemode 25
-
-# (Optional) Delete and recreate sleep image file
-# sudo rm /var/vm/sleepimage
-# sudo mkdir /var/vm/sleepimage
 ```
 
 <a id="6-configure-sleep-and-display-sleep"></a>
