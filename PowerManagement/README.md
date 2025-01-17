@@ -36,6 +36,8 @@
 <a id="2-opencore"></a>
 ### 2. OpenCore Configuration.Add Required Kexts
 Ensure the following kexts are in your `EFI/OC/Kexts` folder and added to `config.plist`:
+
+ - **dortania.github.io/builds**: [Download](https://dortania.github.io/builds)
 - **NVMeFix.kext**: [Download](https://github.com/acidanthera/NVMeFix/releases/latest)
 - **USBWakeFixup.kext**: [Download](https://github.com/osy/USBWakeFixup/releases/latest)
 - **HibernationFixup.kext**: [Download](https://github.com/acidanthera/HibernationFixup/releases/latest)
