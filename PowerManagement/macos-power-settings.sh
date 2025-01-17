@@ -2,11 +2,11 @@
 
 # NOTE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-#      __ __         __    _      __           __     __
-#     / // /__  ____/ /__ (_)__  / / ___  ___ / /    / /  ___  ___ ____
-#    / _  / _ `/ __/  '_// / _ \/ __/ _ \(_-</ _ \  / /__/ _ \/ _ `(_-<
-#   /_//_/\_,_/\__/_/\_\/_/_//_/\__/\___/___/_//_/ /____/\___/\_, /___/
-#   Copyright (c) 2024 for the Hackintosh community          /___/
+#      __ __         __    _      __           __    
+#     / // /__  ____/ /__ (_)__  / / ___  ___ / /    
+#    / _  / _ `/ __/  '_// / _ \/ __/ _ \(_-</ _ \  
+#   /_//_/\_,_/\__/_/\_\/_/_//_/\__/\___/___/_//_/ 
+#   Copyright (c) 2024 for the Hackintosh community          
 #
 #  Author       : zx0r
 #  License      : MIT License
@@ -16,7 +16,7 @@
 #  Purpose: Configure optimal power settings for desktop/laptop
 #  Usage: sudo bash power-settings.sh
 
-# ━━━ Dump Logs ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 # 1. OpenCore Configuration.Add Required Kexts to Kernel -> Add
 # - Ensure the following kexts are in your `EFI/OC/Kexts` folder and added to `config.plist`:
