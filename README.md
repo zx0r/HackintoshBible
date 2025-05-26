@@ -1,6 +1,6 @@
 ### 🚀 macOS on Gigabyte X670E AORUS MASTER
 
-> 🧠 From compiling Gentoo to taming macOS on AMD — deep system-level engineering is not just a passion, it's a principle.
+> From compiling Gentoo to taming macOS on AMD — deep system-level engineering is not just a passion, it's a principle.
 
 ---
 
