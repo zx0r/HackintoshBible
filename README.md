@@ -63,6 +63,7 @@
   <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-4.png" alt="BIOS Screenshot 4" width="100%"/>
   <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-5.png" alt="BIOS Screenshot 5" width="100%"/>
 </p>
+
 > ℹ️ Ignore the BIOS date in the screenshots - only the settings matter.
 
 ---
