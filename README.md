@@ -51,8 +51,6 @@ This is a **fully functional Hackintosh** powered by AMD Ryzen 7000 Series and R
 
 ---
 
----
-
 ##### 🖥️ System Screenshots
 
 <p align="center">
@@ -61,33 +59,19 @@ This is a **fully functional Hackintosh** powered by AMD Ryzen 7000 Series and R
   <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/Screenshot-1.png" width="100%"/>
 </p>
 
-
-
-##### 🖼️ Screenshots
-<img width="715" alt="Screenshot 1" src="https://user-images.githubusercontent.com/107351037/227695442-54c21332-a62d-415e-b836-68506ad2fcdd.png">
-<img width="1025" alt="Screenshot 2" src="https://user-images.githubusercontent.com/107351037/227695480-82122cda-1620-456e-a325-e9dbbf70fd95.png">
-<img width="1352" alt="Screenshot 3" src="https://user-images.githubusercontent.com/107351037/227695484-6e4a5d8f-8c42-42d5-ad9e-1e97381b1d1c.png">
-
 ---
 
 ##### 🧬 BIOS Configuration
 
 ###### Make sure these are applied:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/Screenshot-0.png" alt="BIOS Screenshot 0" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/Screenshot-1.png" alt="BIOS Screenshot 1" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/Screenshot-2.png" alt="BIOS Screenshot 2" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/Screenshot-3.png" alt="BIOS Screenshot 3" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/Screenshot-4.png" alt="BIOS Screenshot 4" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/Screenshot-5.png" alt="BIOS Screenshot 5" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-0.png" alt="BIOS Screenshot 0" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-1.png" alt="BIOS Screenshot 1" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-2.png" alt="BIOS Screenshot 2" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-3.png" alt="BIOS Screenshot 3" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-4.png" alt="BIOS Screenshot 4" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-5.png" alt="BIOS Screenshot 5" width="100%"/>
 </p>
-
-![BIOS Screenshot 1](https://user-images.githubusercontent.com/107351037/227697218-1242e76e-13ac-4b2b-b2b9-027f2e1bf391.png)
-![BIOS Screenshot 2](https://user-images.githubusercontent.com/107351037/227697226-489c60dc-d20c-485d-b11b-c52a4b547689.png)
-![BIOS Screenshot 3](https://user-images.githubusercontent.com/107351037/227697227-e9eba514-3e5c-4650-b3a9-7c0fd40447f6.png)
-![BIOS Screenshot 4](https://user-images.githubusercontent.com/107351037/227697228-890d7587-6e10-4c39-9f99-52cc83d5ea6f.png)
-![BIOS Screenshot 5](https://user-images.githubusercontent.com/107351037/227697232-745616ce-a976-42f6-94a4-986e92804b53.png)
-![BIOS Screenshot 6](https://user-images.githubusercontent.com/107351037/227697236-955a676f-1423-4482-abe1-93ef07f4bec6.png)
 
 ---
 
