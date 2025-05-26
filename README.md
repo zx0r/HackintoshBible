@@ -2,33 +2,24 @@
 
 > 🧠 From compiling Gentoo to taming macOS on AMD — deep system-level engineering is not just a passion, it's a principle.
 
-This is a **fully functional Hackintosh** powered by AMD Ryzen 7000 Series and RDNA2 graphics. Built and tuned for developers, creators, and power users — this configuration offers native-like macOS performance with zero compromise.
-
 ---
 
-#### 💻 Hackintosh Configuration
-
-- 🎯 100% Working and Stable (macOS Sonoma / Sequoia)
-- 🔒 Native Wi-Fi, Bluetooth, Handoff & AirDrop
-- 🔊 Realtek ALC Audio + USB Audio Support
-- ⚡ AMD RX 6900 XT with Full Metal Acceleration
-- 📦 OpenCore Bootloader, Dortania Guide Compliant
-
----
-
-#### ✅ macOS Compatibility Matrix
-
-| Feature                     | Status |
-|-----------------------------|--------|
-| **CPU (Ryzen 7900X)**       | ✅      |
-| **AMD GPU Acceleration**    | ✅      |
-| **Power Management**        | ✅      |
-| **Audio (ALC1220-VB)**      | ✅      |
-| **Ethernet (i225-V)**       | ✅      |
-| **Wi-Fi / Bluetooth**       | ✅      |
-| **AirDrop / Handoff**       | ✅      |
-| **Shutdown / Reboot**       | ✅      |
-| **Sleep / Wake**            | ✅      |
+###### 💻 System Compatibility Overview
+- This is a **fully functional Hackintosh** powered by AMD Ryzen 7000 Series and RDNA2 graphics.
+- Built and tuned for developers, creators, and power users — this configuration offers native-like macOS performance with zero compromise.
+- WiFi and Bluetooth on macOS Sequoia only works with HeliPort (Intel Wi-Fi Client for itlwm)
+- 
+| Feature / Component         | Status            | Notes                                  |
+| --------------------------- | ----------------- | -------------------------------------- |
+| **CPU (Ryzen 7900X)**       | ✅ Supported       | Full performance and power management  |
+| **GPU (AMD RX 6900 XT)**    | ✅ Supported       | Full Metal acceleration (native)       |
+| **Audio (ALC1220-VB)**      | ✅ Supported       | Realtek + USB audio functional         |
+| **Ethernet (Intel i225-V)** | ✅ Supported       | Stable connection                      |
+| **Wi-Fi / Bluetooth**       | ✅ Native          | Includes AirDrop, Handoff, Continuity  |
+| **Sleep / Wake**            | ✅ Reliable        | Instant wake, no artifacts or glitches |
+| **Shutdown / Reboot**       | ✅ Functional      | No known issues                        |
+| **Bootloader**              | ✅ OpenCore        | Dortania-compliant configuration       |
+| **macOS Versions**          | ✅ Sonoma, Sequoia | Tested and validated                   |
 
 ---
 
