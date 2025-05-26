@@ -3,9 +3,9 @@
 
 ---
   
-###### OpenCore Resources
+###### OpenCore
   
-- **[OpenCore Documentation](https://dortania.github.io)** Official OpenCore guides, installation instructions, and troubleshooting resources.
+- **[Dortania](https://dortania.github.io)** Official OpenCore guides, installation instructions, and troubleshooting resources.
 
 ###### Hackintosh Forums
 - **[AMD-OSX](https://amd-osx.com)**  Focused on AMD-based Hackintosh builds.
