@@ -14,17 +14,17 @@ When Gentoo Linux kernel builds are your warm-up, Hackintosh this is the princip
 - Built and tuned for developers, creators, and power users — this configuration offers native-like macOS performance with zero compromise.
 - WiFi and Bluetooth on macOS Sequoia only works with HeliPort (Intel Wi-Fi Client for itlwm)
 
-- | Feature / Component         | Status             | Notes                                  |
-  | --------------------------- | ------------------ | -------------------------------------- |
-  | **CPU (Ryzen 7900X)**       | ✅ Supported       | Full performance and power management  |
-  | **GPU (AMD RX 6900 XT)**    | ✅ Supported       | Full Metal acceleration (native)       |
-  | **Audio (ALC1220-VB)**      | ✅ Supported       | Realtek + USB audio functional         |
-  | **Ethernet (Intel i225-V)** | ✅ Supported       | Stable connection                      |
-  | **Wi-Fi / Bluetooth**       | ✅ Native          | Includes AirDrop, Handoff, Continuity  |
-  | **Sleep / Wake**            | ✅ Reliable        | Instant wake, no artifacts or glitches |
-  | **Shutdown / Reboot**       | ✅ Functional      | No known issues                        |
-  | **Bootloader**              | ✅ OpenCore        | Dortania-compliant configuration       |
-  | **macOS Versions**          | ✅ Sonoma, Sequoia | Tested and validated                   |
+- | Feature / Component   | Status             | Notes                                  |
+  | --------------------- | ------------------ | -------------------------------------- |
+  | **CPU**               | ✅ Supported       | Full performance and power management  |
+  | **GPU**               | ✅ Supported       | Full Metal acceleration (native)       |
+  | **Audio**             | ✅ Supported       | Realtek + USB audio functional         |
+  | **Ethernet**          | ✅ Supported       | Stable connection                      |
+  | **Wi-Fi / Bluetooth** | ✅ Native          | Includes AirDrop, Handoff, Continuity  |
+  | **Sleep / Wake**      | ✅ Reliable        | Instant wake, no artifacts or glitches |
+  | **Shutdown / Reboot** | ✅ Functional      | No known issues                        |
+  | **Bootloader**        | ✅ OpenCore        | Dortania-compliant configuration       |
+  | **macOS Versions**    | ✅ Sonoma, Sequoia | Tested and validated                   |
 
 ---
 
