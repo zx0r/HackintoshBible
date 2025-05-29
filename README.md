@@ -1,10 +1,10 @@
 ### 🚀 AMD Hackintosh HyperCore for Elite Multiboot Engineering
 
-- No compromises. No training wheels. Surge beyond the ordinary."
-- When Gento Linux is your warm-up, you operate at the neuro-level.
-- Hackintosh: a multiboot arsenal where macOS, Linux, and Windows collide in full metal synchronization.
+- Zero compromises. Zero apologies. Forge your own goddamn matrix
+- Engineered for scumbags who debug in hex and own the hardware layer
+- Engineered for developers who speak in assembly and dream in kernel patches
 
-Engineered for developers who speak in assembly and dream in kernel patches.
+When Gentoo Linux kernel builds are your warm-up, Hackintosh this is the principle
 
 ---
 
