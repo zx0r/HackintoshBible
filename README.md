@@ -5,40 +5,41 @@
 ---
 
 ###### 💻 System Compatibility Overview
+
 - This is a **fully functional Hackintosh** powered by AMD Ryzen 7000 Series and RDNA2 graphics.
 - Built and tuned for developers, creators, and power users — this configuration offers native-like macOS performance with zero compromise.
 - WiFi and Bluetooth on macOS Sequoia only works with HeliPort (Intel Wi-Fi Client for itlwm)
-- 
-| Feature / Component         | Status            | Notes                                  |
-| --------------------------- | ----------------- | -------------------------------------- |
-| **CPU (Ryzen 7900X)**       | ✅ Supported       | Full performance and power management  |
-| **GPU (AMD RX 6900 XT)**    | ✅ Supported       | Full Metal acceleration (native)       |
-| **Audio (ALC1220-VB)**      | ✅ Supported       | Realtek + USB audio functional         |
-| **Ethernet (Intel i225-V)** | ✅ Supported       | Stable connection                      |
-| **Wi-Fi / Bluetooth**       | ✅ Native          | Includes AirDrop, Handoff, Continuity  |
-| **Sleep / Wake**            | ✅ Reliable        | Instant wake, no artifacts or glitches |
-| **Shutdown / Reboot**       | ✅ Functional      | No known issues                        |
-| **Bootloader**              | ✅ OpenCore        | Dortania-compliant configuration       |
-| **macOS Versions**          | ✅ Sonoma, Sequoia | Tested and validated                   |
+
+- | Feature / Component         | Status             | Notes                                  |
+  | --------------------------- | ------------------ | -------------------------------------- |
+  | **CPU (Ryzen 7900X)**       | ✅ Supported       | Full performance and power management  |
+  | **GPU (AMD RX 6900 XT)**    | ✅ Supported       | Full Metal acceleration (native)       |
+  | **Audio (ALC1220-VB)**      | ✅ Supported       | Realtek + USB audio functional         |
+  | **Ethernet (Intel i225-V)** | ✅ Supported       | Stable connection                      |
+  | **Wi-Fi / Bluetooth**       | ✅ Native          | Includes AirDrop, Handoff, Continuity  |
+  | **Sleep / Wake**            | ✅ Reliable        | Instant wake, no artifacts or glitches |
+  | **Shutdown / Reboot**       | ✅ Functional      | No known issues                        |
+  | **Bootloader**              | ✅ OpenCore        | Dortania-compliant configuration       |
+  | **macOS Versions**          | ✅ Sonoma, Sequoia | Tested and validated                   |
 
 ---
 
 #### 🛠️ Hardware Specifications
 
-| Component       | Specification                                                                 |
-|----------------|--------------------------------------------------------------------------------|
-| **Motherboard** | Gigabyte X670E AORUS MASTER (rev. 1.0)                                        |
-| **CPU**         | AMD Ryzen™ 9 7900X (12 cores / 24 threads)                                    |
-| **GPU**         | Sapphire RX 6900 XT NITRO+ SE (16 GB GDDR6, Metal supported)                  |
-| **RAM**         | 48 GB DDR5 G.Skill Trident Z5 RGB                                             |
-| **SSD**         | Kingston Fury Renegade 1 TB (PCIe 4.0 NVMe)                                   |
-| **Wi-Fi**       | Intel® Wi-Fi 6E AX210 (Sonoma Native macOS support /  Sequoia with HeliPort(Intel Wi-Fi Client for itlwm)
-| **Ethernet**    | Intel® 2.5GbE LAN chip (OpenIntelEthernet.kext)                               |
-| **Audio**       | Realtek® ALC1220-VB + USB DAC (Layout ID configured, native output)           |
-| **Cooling**     | DeepCool LT720 WH (360mm AIO Liquid Cooling)                                  |
-| **PSU**         | Chieftronic PowerPlay 1200W Platinum                                          |
-| **Case**        | 1STPLAYER SP9 Steampunk White                                                 |
-| **macOS**       | Sonoma / Sequoia (OpenCore Bootloader, Ryzen-optimized)                       |
+| Component       | Specification                                                                                             |
+| --------------- | --------------------------------------------------------------------------------------------------------- |
+| **Motherboard** | Gigabyte X670E AORUS MASTER (rev. 1.0)                                                                    |
+| **CPU**         | AMD Ryzen™ 9 7900X (12 cores / 24 threads)                                                               |
+| **GPU**         | Sapphire RX 6900 XT NITRO+ SE (16 GB GDDR6, Metal supported)                                              |
+| **RAM**         | 48 GB DDR5 G.Skill Trident Z5 RGB                                                                         |
+| **SSD**         | Kingston Fury Renegade 1 TB (PCIe 4.0 NVMe)                                                               |
+| **Wi-Fi**       | Intel® Wi-Fi 6E AX210 (Sonoma Native macOS support / Sequoia with HeliPort(Intel Wi-Fi Client for itlwm) |
+| **Ethernet**    | Intel® 2.5GbE LAN chip (OpenIntelEthernet.kext)                                                          |
+| **Audio**       | Realtek® ALC1220-VB + USB DAC (Layout ID configured, native output)                                      |
+| **Cooling**     | DeepCool LT720 WH (360mm AIO Liquid Cooling)                                                              |
+| **PSU**         | Chieftronic PowerPlay 1200W Platinum                                                                      |
+| **Case**        | 1STPLAYER SP9 Steampunk White                                                                             |
+| **macOS**       | Sonoma / Sequoia (OpenCore Bootloader, Ryzen-optimized)                                                   |
 
 ---
 
@@ -49,12 +50,23 @@
   <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/Screenshot-2.png" width="100%"/>
   <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/Screenshot-1.png" width="100%"/>
 </p>
+<img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/Screenshot-4.png" width="100%"/>
+</p>
+<img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/btop.jpg" width="100%"/>
+</p>
+<img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/nvim.jpg" width="100%"/>
+</p>
+<img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/screenshot.png" width="100%"/>
+</p>
+<img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/workspace.jpg" width="100%"/>
+</p>
 
 ---
 
 ##### 🧬 BIOS Configuration
 
-###### Make sure these are applied:
+###### Make sure these are applied
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-0.png" alt="BIOS Screenshot 0" width="100%"/>
   <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-1.png" alt="BIOS Screenshot 1" width="100%"/>
@@ -71,9 +83,11 @@
 ##### 🧰 OpenCore & Community Resources
 
 ###### Bootloader
+
 - 🔧 [Dortania Guide](https://dortania.github.io) — Gold standard for OpenCore installation.
 
 ###### Hackintosh Forums
+
 - 🧠 [AMD-OSX](https://amd-osx.com)
 - 🧰 [Olarila](https://olarila.com)
 - 💬 [TonyMacx86](https://tonymacx86.com)
@@ -85,10 +99,12 @@
 - 🇮🇹 [MacOS86.it](https://macos86.it/)
 
 ###### Reddit Communities
+
 - [r/Hackintosh](https://www.reddit.com/r/hackintosh/)
 - [r/Ryzentosh](https://www.reddit.com/r/Ryzentosh/)
 
 ###### GitHub
+
 - 🔧 [Acidanthera](https://github.com/acidanthera)
 - 🛠 [AMD-OSX](https://github.com/AMD-OSX)
 
