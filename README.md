@@ -1,6 +1,10 @@
-### 🚀 macOS on Gigabyte X670E AORUS MASTER
+### 🚀 AMD Hackintosh HyperCore for Elite Multiboot Engineering
 
-> From compiling Gentoo to taming macOS on AMD — deep system-level engineering is not just a passion, it's a principle.
+- No compromises. No training wheels. Surge beyond the ordinary."
+- When Gento Linux is your warm-up, you operate at the neuro-level.
+- Hackintosh: a multiboot arsenal where macOS, Linux, and Windows collide in full metal synchronization.
+
+Engineered for developers who speak in assembly and dream in kernel patches.
 
 ---
 
