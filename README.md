@@ -51,8 +51,6 @@
 </p>
 <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/screenshot.png" width="100%"/>
 </p>
-<img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/system/workspace.jpg" width="100%"/>
-</p>
 
 ---
 
