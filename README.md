@@ -1,17 +1,6 @@
-### 🚀 AMD Hackintosh HyperCore for Elite Multiboot Engineering
+### 💻 AMD Hackintosh HyperCore
 
-- Zero compromises. Zero apologies. Forge your own goddamn matrix
-- Engineered for scumbags who debug in hex and own the hardware layer
-- Engineered for developers who speak in assembly and dream in kernel patches
-
-When Gentoo Linux kernel builds are your warm-up, Hackintosh this is the principle
-
----
-
-###### 💻 System Compatibility Overview
-
-- This is a **fully functional Hackintosh** powered by AMD Ryzen 7000 Series and RDNA2 graphics.
-- Built and tuned for developers, creators, and power users — this configuration offers native-like macOS performance with zero compromise.
+- This is a Hackintosh powered by AMD Ryzen 7000 Series and RDNA2 graphics.
 - WiFi and Bluetooth on macOS Sequoia only works with HeliPort (Intel Wi-Fi Client for itlwm)
 
 - | Feature / Component   | Status             | Notes                                  |
@@ -106,26 +95,5 @@ When Gentoo Linux kernel builds are your warm-up, Hackintosh this is the princip
 
 - [r/Hackintosh](https://www.reddit.com/r/hackintosh/)
 - [r/Ryzentosh](https://www.reddit.com/r/Ryzentosh/)
-
-###### GitHub
-
-- 🔧 [Acidanthera](https://github.com/acidanthera)
-- 🛠 [AMD-OSX](https://github.com/AMD-OSX)
-
+- 
 ---
-
-##### ⚙️ Notes
-
-- OpenCore Config validated with [OCValidator](https://github.com/corpnewt/OCValidate)
-- All SSDTs compiled using [iasl](https://github.com/acidanthera/MaciASL)
-- USB mapping via `USBToolBox.kext` + `UTBMap.kext`
-- NVRAM, RTC, and UEFI entries cleaned with `CleanNvram.efi` if needed
-- SMBIOS: MacPro7,1 for full GPU acceleration (AGPM functional)
-
----
-
-##### 🧑‍💻 Final Words
-
-This build runs macOS like native Apple. No compromises, no emulation. Just raw performance, full feature support, and the Unix environment every engineer dreams of.
-
-_“When you know the internals, the impossible becomes a config file.”_
