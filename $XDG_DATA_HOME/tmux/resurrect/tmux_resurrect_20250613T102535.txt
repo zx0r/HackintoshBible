@@ -1,0 +1,10 @@
+pane	DEV	1	1	:*	1	~/p/HackintoshBible	:/Users/x0r/projects/HackintoshBible	1	fish	:-fish
+pane	DEV	1	1	:*	2	~/Desktop	:/Users/x0r/Desktop	0	fish	:-fish
+pane	DEV	2	0	:##	1	~/p/HackintoshBible	:/Users/x0r/projects/HackintoshBible	0	fish	:-fish
+pane	DEV	2	0	:##	2	~/p/HackintoshBible	:/Users/x0r/projects/HackintoshBible	1	fish	:-fish
+pane	DEV	3	0	:##-	1	~/p/HackintoshBible	:/Users/x0r/projects/HackintoshBible	0	fish	:-fish
+pane	DEV	3	0	:##-	2	~/p/HackintoshBible	:/Users/x0r/projects/HackintoshBible	1	fish	:-fish
+window	DEV	1	:Dev	1	:*	fcfd,212x73,0,0{106x73,0,0,0,105x73,107,0,1}	off
+window	DEV	2	:Git	0	:##	820e,80x24,0,0{40x24,0,0,2,39x24,41,0,3}	off
+window	DEV	3	:Ext	0	:##-	f493,212x73,0,0{105x73,0,0,4,106x73,106,0,5}	off
+state	DEV	

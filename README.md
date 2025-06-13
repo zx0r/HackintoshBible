@@ -1,10 +1,20 @@
-### 🚀 AMD Hackintosh HyperCore for Elite Multiboot Engineering
+#### 🍏 **AMD Hackintosh HyperCore**
 
-- Zero compromises. Zero apologies. Forge your own goddamn matrix
-- Engineered for scumbags who debug in hex and own the hardware layer
-- Engineered for developers who speak in assembly and dream in kernel patches
+> *Where cutting-edge AMD performance meets Apple's macOS perfection.*
 
-When Gentoo Linux kernel builds are your warm-up, Hackintosh this is the principle
+---
+
+<!-- ⚙️ Hackintosh System Badges -->
+<div align="center">
+
+  <img src="https://img.shields.io/badge/macOS-14.7.2-000000?style=for-the-badge&logo=apple&logoColor=white&labelColor=gray" />
+  <img src="https://img.shields.io/badge/Build-23H311-555555?style=for-the-badge&logo=apple&logoColor=white&labelColor=black" />
+  <img src="https://img.shields.io/badge/SMBIOS-MacPro7,1-blue?style=for-the-badge&logo=apple&logoColor=white&labelColor=black" />
+  <img src="https://img.shields.io/badge/OpenCore-1.0.3-orange?style=for-the-badge&logo=hackster&logoColor=white&labelColor=black" />
+  <img src="https://img.shields.io/badge/BIOS-F35-yellowgreen?style=for-the-badge&logo=chip&logoColor=white&labelColor=black" />
+
+</div>
+
 
 ---
 
@@ -14,7 +24,7 @@ When Gentoo Linux kernel builds are your warm-up, Hackintosh this is the princip
 - Built and tuned for developers, creators, and power users — this configuration offers native-like macOS performance with zero compromise.
 - WiFi and Bluetooth on macOS Sequoia only works with HeliPort (Intel Wi-Fi Client for itlwm)
 
-- | Feature / Component   | Status             | Notes                                  |
+  | Feature / Component   | Status             | Notes                                  |
   | --------------------- | ------------------ | -------------------------------------- |
   | **CPU**               | ✅ Supported       | Full performance and power management  |
   | **GPU**               | ✅ Supported       | Full Metal acceleration (native)       |
@@ -28,7 +38,7 @@ When Gentoo Linux kernel builds are your warm-up, Hackintosh this is the princip
 
 ---
 
-#### 🛠️ Hardware Specifications
+###### 🛠️ Hardware Specifications
 
 | Component       | Specification                                                                                             |
 | --------------- | --------------------------------------------------------------------------------------------------------- |
@@ -44,6 +54,24 @@ When Gentoo Linux kernel builds are your warm-up, Hackintosh this is the princip
 | **PSU**         | Chieftronic PowerPlay 1200W Platinum                                                                      |
 | **Case**        | 1STPLAYER SP9 Steampunk White                                                                             |
 | **macOS**       | Sonoma / Sequoia (OpenCore Bootloader, Ryzen-optimized)                                                   |
+
+- CPU: AMD Ryzen™ 9 7900X 12-Core Processor
+- GPU: AMD Radeon RX 6900 XT, AMD Radeon RX 6900 XT, PCIe, 16 GB
+- Memory: P0 CHANNEL A/DIMM 1, 24 GB, RAM, 6400 MHz, G.SKILL, F5-6400J4048F24G
+- Memory: P0 CHANNEL B/DIMM 1, 24 GB, RAM, 6400 MHz, G.SKILL, F5-6400J4048F24G
+- Network Service: Ethernet, Ethernet, en0
+- Network Service: Wi-Fi, AirPort, en1
+- PCI Card: FCH SMBus Controller, SMBus, Internal@0,20,0
+- PCI Card: Samsung 990 PRO  PCIe 4.0 NVMe M.2 SSD, Non-Volatile memory controller, Internal@0,1,2/0,0
+- PCI Card: Kingston FURY Renegade PCIe 4.0 NVMe M.2 SSD, Non-Volatile memory controller, Internal@0,2,2/0,0
+- PCI Card: Phoenix PCIe Dummy Function, Non-Essential Instrumentation, Internal@0,8,1/0,0
+- PCI Card: VanGogh PSP/CCP, Encryption controller, Internal@0,8,1/0,2
+- PCI Card: Family 17h/19h HD Audio Controller, Audio device, Internal@0,8,1/0,6
+- PCI Card: AMD Radeon RX 6900 XT, gpu-controller, Internal@0,1,1/0,0/0,0@3,0,0
+- PCI Card: Navi 21/23 HDMI/DP Audio Controller, Audio device, Internal@0,1,1/0,0/0,0/0,1
+- PCI Card: Ethernet Controller I225-V, Ethernet controller, Internal@0,2,1/0,0/8,0/0,0/6,0/0,0
+- PCI Card: Wi-Fi 6E AX210 160MHz, Network controller, Internal@0,2,1/0,0/8,0/0,0/7,0/0,0
+
 
 ---
 
@@ -72,15 +100,17 @@ When Gentoo Linux kernel builds are your warm-up, Hackintosh this is the princip
 ###### Make sure these are applied
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-0.png" alt="BIOS Screenshot 0" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-1.png" alt="BIOS Screenshot 1" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-2.png" alt="BIOS Screenshot 2" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-3.png" alt="BIOS Screenshot 3" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-4.png" alt="BIOS Screenshot 4" width="100%"/>
-  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/bios-5.png" alt="BIOS Screenshot 5" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/system_info.jpg" alt="BIOS Screenshot 0" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/fast_boot_disable.jpg" alt="BIOS Screenshot 1" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/favorites.jpg" alt="BIOS Screenshot 2" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/iommu.jpg" alt="BIOS Screenshot 3" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/save_profile.jpg" alt="BIOS Screenshot 4" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/tweaker.jpg" alt="BIOS Screenshot 5" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/tweaker_cpu.jpg" alt="BIOS Screenshot 5" width="100%"/> 
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/settings.jpg" alt="BIOS Screenshot 5" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/secure_boot_disable.jpg" alt="BIOS Screenshot 5" width="100%"/>
+  <img src="https://raw.githubusercontent.com/zx0r/HackintoshBible/refs/heads/main/.github/assets/BIOS/usb_config.jpg" alt="BIOS Screenshot 5" width="100%"/>
 </p>
-
-> ℹ️ Ignore the BIOS date in the screenshots - only the settings matter.
 
 ---
 
