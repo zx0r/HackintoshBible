@@ -20,10 +20,6 @@
 
 ###### 💻 System Compatibility Overview
 
-- This is a **fully functional Hackintosh** powered by AMD Ryzen 7000 Series and RDNA2 graphics.
-- Built and tuned for developers, creators, and power users — this configuration offers native-like macOS performance with zero compromise.
-- WiFi and Bluetooth on macOS Sequoia only works with HeliPort (Intel Wi-Fi Client for itlwm)
-
   | Feature / Component   | Status             | Notes                                  |
   | --------------------- | ------------------ | -------------------------------------- |
   | **CPU**               | ✅ Supported       | Full performance and power management  |
@@ -35,6 +31,8 @@
   | **Shutdown / Reboot** | ✅ Functional      | No known issues                        |
   | **Bootloader**        | ✅ OpenCore        | Dortania-compliant configuration       |
   | **macOS Versions**    | ✅ Sonoma, Sequoia | Tested and validated                   |
+
+> WiFi on macOS Sequoia only works with HeliPort (Intel Wi-Fi Client for itlwm)
 
 ---
 
